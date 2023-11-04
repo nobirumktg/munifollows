@@ -1,0 +1,88 @@
+ .u-section-1 {
+  background-image: url("images/vccvv-min.jpg");
+  background-position: 50% 50%;
+  background-size: auto 135%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 2508px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3.75rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  width: 762px;
+  margin: 71px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  line-height: 2;
+  font-style: italic;
+  font-size: 1.125rem;
+  font-weight: 400;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+  width: 568px;
+  margin: 41px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 2068px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1584px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.625rem;
+    width: 492px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1188px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.375rem;
+    width: 429px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 1rem;
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    background-position: 60.8% 50%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 748px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 340px;
+  }
+}
